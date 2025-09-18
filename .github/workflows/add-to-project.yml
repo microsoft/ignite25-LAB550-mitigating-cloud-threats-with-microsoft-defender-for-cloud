@@ -1,0 +1,31 @@
+name: Add issues to Ignite GitHub Project
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add issue to Ignite GitHub Project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add to project
+        uses: actions/add-to-project@v1.0.2
+        with:
+          project-url: "https://github.com/orgs/microsoft/projects/YOUR_PROJECT_NUMBER"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+  label_issues:
+    name: Apply labels to new issues
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Apply labels
+        uses: github/issue-labeler@v3.4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          configuration-path: .github/labeler.yml
+          enable-versioned-regex: 0
