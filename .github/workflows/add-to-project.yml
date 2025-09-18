@@ -5,6 +5,10 @@ on:
     types:
       - opened
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   add-to-project:
     name: Add issue to Ignite GitHub Project
@@ -20,9 +24,6 @@ jobs:
     name: Apply labels to new issues
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        
       - name: Apply labels
         uses: github/issue-labeler@v3.4
         with:

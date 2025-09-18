@@ -1,0 +1,37 @@
+# Configuration for issue labeler
+# This file defines rules for automatically applying labels to issues
+
+# Label issues based on content
+"type: bug":
+  - "bug"
+  - "error"
+  - "issue"
+  - "problem"
+  - "broken"
+
+"type: enhancement":
+  - "enhancement"
+  - "feature"
+  - "improvement"
+  - "request"
+
+"type: documentation":
+  - "documentation"
+  - "docs"
+  - "readme"
+
+"priority: high":
+  - "urgent"
+  - "critical"
+  - "important"
+
+"ignite":
+  - "ignite"
+  - "lab"
+  - "workshop"
+
+"defender":
+  - "defender"
+  - "security"
+  - "cloud security"
+  - "microsoft defender"
