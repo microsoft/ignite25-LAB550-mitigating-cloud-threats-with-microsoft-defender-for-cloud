@@ -12,6 +12,8 @@ Previously, we briefly explored the *Secure score* tile on the overview page. No
 
 ### Task 1: Exploring Secure Score
 
+### ???? Security Posture and Secure Score is Currently not working in lab environment ????
+
 1. In the Search bar of the Microsoft Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
 1. In the Microsoft Defender for Cloud left navigation menu, under the Cloud Security section, select on the Security posture button.
@@ -30,7 +32,7 @@ Previously, we briefly explored the *Secure score* tile on the overview page. No
 
 1. On the top menu, select the **Download CSV report** button – this allows you to get a snapshot of your resources, their health status, and the associated recommendations. You can use it for pivoting and reporting.
 
-1. Select a Recommendation from the drop down list to review the format such as *Storage account public access should be disallowed*. 
+1. Select a Recommendation from the list to review the format such as *Storage account public access should be disallowed*. 
 
      >**Note:** If that recommendation is not available in the lab environment, select one that is available.
 
@@ -41,6 +43,8 @@ Previously, we briefly explored the *Secure score* tile on the overview page. No
      - Severity indicator: Medium
      - Freshness interval: 30 Min
      - Tactics and techniques: Initial Access
+
+1. Select the **Initial Access** item to open a potential attack map. You can use the links to see the common MITRE attacks.
 
 1. The next important part is the Remediation Steps which contains the remediation logic where you can remediate the selected resource/s.
 
@@ -62,7 +66,7 @@ The *Asset inventory* dashboard allows you to get a single pane of glass view of
 
 1. Use the Filter by name box to search for Windows. You should now see a filtered view containing your desired resource: *VM1*. Hover on the red bar in the recommendations column to see a tooltip with the active recommendations. You should expect to see Active-xx of xx Recommendations – these are the active recommendations you must attend.
 
-1. Open the resource health pane by selecting the resource. Select *VM1*.
+1. Open the Resource health pane by selecting the resource. Select **VM1**.
 
 1. On the resource health pane for *VM1*, review the virtual machine information alongside the recommendation list.
 
