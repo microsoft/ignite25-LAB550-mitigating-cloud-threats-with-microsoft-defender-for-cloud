@@ -1,13 +1,3 @@
-# Lab Instructions
-
-Lab instructions go here
-
-
----
-lab:
-    title: 'Exercise 1 - Enable Microsoft Defender for Cloud'
-    module: 'Mitigate threats using Microsoft Defender for Cloud'
----
 
 # Exercise 1 - Enable Microsoft Defender for Cloud
 
@@ -19,7 +9,7 @@ You're a Security Operations Analyst working at a company that is implementing c
 
 In this task, you create a Log Analytics workspace for use with Azure Monitoring, Microsoft Sentinel and Microsoft Defender for Cloud.
 
-1. In the Microsoft Edge browser, navigate to the Azure portal at +++https://portal.azure.com+++.
+1. In the Microsoft Edge browser, navigate to the Azure portal at https://portal.azure.com.
 
     >**Note:** Select the **Resourses** tab for the *Username* and *Password* for the lab. Use the **LabUser** account for this lab.
 
@@ -27,15 +17,15 @@ In this task, you create a Log Analytics workspace for use with Azure Monitoring
 
 1. In the **Enter password** dialog box, copy, and paste in the admin's tenant password provided by your lab hosting provider and then select **Sign in**.
 
-1. In the Search bar of the Azure portal, type +++Log Analytics workspaces+++, then select the same service name.
+1. In the Search bar of the Azure portal, type Log Analytics workspaces, then select the same service name.
 
 1. Select **+Create** from the command bar.
 
 1. Select **Create new** for the Resource group.
 
-1. Enter +++RG-Defender+++ and select **Ok**.
+1. Enter RG-Defender and select **Ok**.
 
-1. For the Name, enter something unique like: +++lawIgniteLab+++.
+1. For the Name, enter something unique like: lawIgniteLab.
 
 1. Select **Review + Create**.
 
@@ -47,7 +37,7 @@ In this task, you'll enable and configure Microsoft Defender for Cloud.
 
 1. If you don't have the **Azure Portal** open from the previous task, open it now.
 
-1. In the Search bar of the Microsoft Azure portal, type +++Defender+++, then select **Microsoft Defender for Cloud**.
+1. In the Search bar of the Microsoft Azure portal, type Defender, then select **Microsoft Defender for Cloud**.
 
 1. In the left navigation menu for Microsoft Defender for Cloud, expand the **Management** section , and select **Environment settings**.
 
@@ -57,7 +47,7 @@ In this task, you'll enable and configure Microsoft Defender for Cloud.
 
 1. Start expanding each row until you get to the subscription.
 
-1. Select the **??????????** subscription link.
+1. Select your subscription from the tree.
 
 1. When the new page opens, select the **Maybe later** for the **Auto-provisioning updated experience**.
 
@@ -113,4 +103,4 @@ In this task, you'll enable and configure Microsoft Defender for Cloud.
 
 1. We will continue exploring *Microsoft Defender for Cloud* **Security posture** and **Regulatory compliance** in the next exercise.
 
-## Proceed to Exercise 2
+## Proceed to Lab2
