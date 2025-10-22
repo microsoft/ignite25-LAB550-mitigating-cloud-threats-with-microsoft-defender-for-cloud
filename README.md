@@ -70,28 +70,28 @@ Send them to [Mike Kinsman](mailto:mikki@microsoft.com) and [Laurent Bugnion](lb
 
 # [Microsoft Ignite 2025](https://ignite.microsoft.com)
 
-## 🔥BRKXXX: Mitigating cloud threats with Microsoft Defender for Cloud
+## 🔥LAB550: Mitigating cloud threats with Microsoft Defender for Cloud
 
 [![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)
 [![Azure AI Foundry Developer Forum](https://img.shields.io/badge/GitHub-Azure_AI_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=adff2f&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ### Session Description
 
-*Add Session Description*
+Attendees will learn to enable Defender for Cloud, navigate its dashboard, and interpret regulatory compliance and workload protection insights. The labs also cover secure score analysis, security recommendations, inventory management, pricing models, and governance rule assignment. By the end of the series, participants will be equipped to proactively identify and mitigate threats, strengthen cloud security posture, and align with organizational governance standards.
 
 ### 🧠 Learning Outcomes
 
 By the end of this session, learners will be able to:
 
--  
--
--
+- Enable Microsoft Defender for Cloud
+- Configure the primary feature of Microsoft Defender for Cloud
+- Use the Defender for Cloud Dashboard to quick explore and update your Security Posture
+- Use Recommendation from Defender for Cloud to mitigate threats.
 
 ### 💻 Technologies Used
 
-1.
-1.
-1.
+1. Microsoft Defender for Cloud
+1. Microsoft Azure
 
 ### 🌟 Microsoft Learn MCP Server
 
@@ -110,6 +110,7 @@ For more information, setup instructions for other dev clients, and to post comm
 | Ignite 2025 Next Steps | [https://aka.ms/Ignite25-Next-Steps](https://aka.ms/Ignite25-Next-Steps?ocid=ignite25_nextsteps_cnl) | Links to all repos for AI Tour 26 Sessions |
 | Azure AI Foundry Community Discord | [![Microsoft Azure AI Foundry Discord](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://discord.com/invite/ByRwuEEgH4)| Connect with the Azure AI Foundry Community! |
 | Learn at Ignite | [https://aka.ms/LearnAtIgnite](https://aka.ms/LearnAtIgnite?ocid=ignite25_nextsteps_github_cnl) | Continue learning on Microsoft Learn |
+| Manage threats with Defender for Cloud | [Defender for Cloud training](https://learn.microsoft.com/en-us/training/modules/microsoft-defender-cloud-threat-protection/) | Training for Microsoft Defender for Cloud |
 
 ## Content Owners
 
@@ -120,19 +121,11 @@ For more information, setup instructions for other dev clients, and to post comm
 
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE"
-"/><br />
-        <sub><b> INSERT NAME HERE
+    <td align="center"><a href="http://github.com/r-c-stewart">
+        <img src="https://github.com/r-c-stewart.png" width="100px;" alt="Robert Stewart"/><br />
+        <sub><b> Robert Stewart
 </b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
-    </td>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE
-"/><br />
-        <sub><b>INSERT NAME HERE
-</b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
+            <a href="https://github.com/r-c-stewart" title="talk">📢</a> 
     </td>
 </tr></table>
 
