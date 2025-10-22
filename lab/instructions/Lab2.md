@@ -14,7 +14,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 In this task, you'll review Regulatory compliance configuration in Microsoft Defender for Cloud.
 
-1. In the Microsoft Edge browser, open the Azure portal at +++https://portal.azure.com+++.
+1. In the Microsoft Edge browser, open the Azure portal at https://portal.azure.com.
 
 1. In the **Sign in** dialog box, copy, and paste in the **Username** account provided by your lab hosting provider and then select **Next**.
 
@@ -46,9 +46,9 @@ In this task, you'll review Regulatory compliance configuration in Microsoft Def
 
 1. On the **Set parameters** blade, enter the following details and select **Save**.
 
-     - Allowed registry or registries regex: +++[]+++
-     - Max allowed CPU units: +++200m+++
-     - Max allowed memory bytes: +++1+++
+     - Allowed registry or registries regex: []
+     - Max allowed CPU units: 200m
+     - Max allowed memory bytes: 1
 
 1. Close the *Security policies* page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
 
@@ -121,4 +121,4 @@ In this task, you'll load sample security alerts and review the alert details.
 
     - Review the *Take action* information. Notice the sections available to take action depending on the type of alert: Inspect resource context, Mitigate the threat, Prevent future attacks, Trigger automated response and Suppress similar alerts.
 
-## Proceed to next exercise.
+## Proceed to Lab3.
