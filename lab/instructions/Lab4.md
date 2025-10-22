@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Exercise 4 - Mitigate threats using Microsoft Defender for Cloud'
-    module: 'Explore Governance Rules'
----
-
 # Exercise 4 - Explore Governance Rules
 
 ## Lab scenario
