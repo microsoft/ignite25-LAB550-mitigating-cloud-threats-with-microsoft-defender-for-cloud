@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Exercise 3 - Mitigate threats using Microsoft Defender for Cloud'
-    module: 'Explore Secure Score, Recommendations and Inventory'
----
-
 # Exercise 3 - Explore Secure Score, Recommendations and Inventory
 
 ## Lab scenario
@@ -11,8 +5,6 @@ lab:
 Previously, we briefly explored the *Secure score* tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure score), which measures the current security posture of your subscription; the higher the score, the lower the identified risk level.
 
 ### Task 1: Exploring Secure Score
-
-### ???? Security Posture and Secure Score is Currently not working in lab environment ????
 
 1. In the Search bar of the Microsoft Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
@@ -103,4 +95,4 @@ The dashboard includes the following sections:
 - Advanced protection (3) - Defender for Cloud includes many advanced threat protection capabilities for virtual machines, SQL databases, containers, web applications, your network, and more. In this advanced protection section, you can see the status of the resources in your selected subscriptions for each of these protections. Select any of them to go directly to the configuration area for that protection type.
 - Insights (4) - This rolling pane of news, suggested reading and high-priority alerts give Defender for Cloud insights into pressing security matters that are relevant to you and your subscription. Whether it's a list of high-severity CVEs discovered on your VMs by a vulnerability analysis tool, or a new blog post by a member of the Defender for Cloud team, you'll find it here in the Insights panel.
 
-## You have completed the lab
+## Proceed to Lab4
